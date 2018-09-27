@@ -13,6 +13,14 @@
 		A7F99ADC215CBBA0008B0C1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F99ADA215CBBA0008B0C1F /* Main.storyboard */; };
 		A7F99ADE215CBBA0008B0C1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7F99ADD215CBBA0008B0C1F /* Assets.xcassets */; };
 		A7F99AE1215CBBA0008B0C1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F99ADF215CBBA0008B0C1F /* LaunchScreen.storyboard */; };
+		A7F99AF6215CBBF7008B0C1F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A7F99AEA215CBBF7008B0C1F /* README.md */; };
+		A7F99AF7215CBBF7008B0C1F /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F99AEF215CBBF7008B0C1F /* RNCryptor.m */; };
+		A7F99AF8215CBBF7008B0C1F /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F99AF1215CBBF7008B0C1F /* RNCryptorEngine.m */; };
+		A7F99AF9215CBBF7008B0C1F /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F99AF3215CBBF7008B0C1F /* RNDecryptor.m */; };
+		A7F99AFA215CBBF7008B0C1F /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F99AF5215CBBF7008B0C1F /* RNEncryptor.m */; };
+		A7F99AFE215CBC4D008B0C1F /* NSObject+Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F99AFD215CBC4D008B0C1F /* NSObject+Encrypt.m */; };
+		A7F99B02215CBD06008B0C1F /* ZLFileIOHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F99B01215CBD06008B0C1F /* ZLFileIOHandle.m */; };
+		A7F99B05215CBEF8008B0C1F /* ZLFileEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F99B04215CBEF8008B0C1F /* ZLFileEncrypt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,22 @@
 		A7F99ADD215CBBA0008B0C1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7F99AE0215CBBA0008B0C1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7F99AE2215CBBA0008B0C1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F99AEA215CBBF7008B0C1F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A7F99AED215CBBF7008B0C1F /* RNCryptor+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor+Private.h"; sourceTree = "<group>"; };
+		A7F99AEE215CBBF7008B0C1F /* RNCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptor.h; sourceTree = "<group>"; };
+		A7F99AEF215CBBF7008B0C1F /* RNCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptor.m; sourceTree = "<group>"; };
+		A7F99AF0215CBBF7008B0C1F /* RNCryptorEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptorEngine.h; sourceTree = "<group>"; };
+		A7F99AF1215CBBF7008B0C1F /* RNCryptorEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptorEngine.m; sourceTree = "<group>"; };
+		A7F99AF2215CBBF7008B0C1F /* RNDecryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNDecryptor.h; sourceTree = "<group>"; };
+		A7F99AF3215CBBF7008B0C1F /* RNDecryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNDecryptor.m; sourceTree = "<group>"; };
+		A7F99AF4215CBBF7008B0C1F /* RNEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNEncryptor.h; sourceTree = "<group>"; };
+		A7F99AF5215CBBF7008B0C1F /* RNEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNEncryptor.m; sourceTree = "<group>"; };
+		A7F99AFC215CBC4D008B0C1F /* NSObject+Encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Encrypt.h"; sourceTree = "<group>"; };
+		A7F99AFD215CBC4D008B0C1F /* NSObject+Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Encrypt.m"; sourceTree = "<group>"; };
+		A7F99B00215CBD06008B0C1F /* ZLFileIOHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLFileIOHandle.h; sourceTree = "<group>"; };
+		A7F99B01215CBD06008B0C1F /* ZLFileIOHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLFileIOHandle.m; sourceTree = "<group>"; };
+		A7F99B03215CBEF8008B0C1F /* ZLFileEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLFileEncrypt.h; sourceTree = "<group>"; };
+		A7F99B04215CBEF8008B0C1F /* ZLFileEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLFileEncrypt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +86,9 @@
 				A7F99AD5215CBBA0008B0C1F /* AppDelegate.m */,
 				A7F99AD7215CBBA0008B0C1F /* ViewController.h */,
 				A7F99AD8215CBBA0008B0C1F /* ViewController.m */,
+				A7F99AFF215CBCA9008B0C1F /* Util */,
+				A7F99AFB215CBC4D008B0C1F /* Category */,
+				A7F99AE8215CBBF7008B0C1F /* Vendor */,
 				A7F99ADA215CBBA0008B0C1F /* Main.storyboard */,
 				A7F99ADD215CBBA0008B0C1F /* Assets.xcassets */,
 				A7F99ADF215CBBA0008B0C1F /* LaunchScreen.storyboard */,
@@ -77,6 +104,59 @@
 				A7F99AD2215CBBA0008B0C1F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7F99AE8215CBBF7008B0C1F /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				A7F99AE9215CBBF7008B0C1F /* RNCryptor */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		A7F99AE9215CBBF7008B0C1F /* RNCryptor */ = {
+			isa = PBXGroup;
+			children = (
+				A7F99AEA215CBBF7008B0C1F /* README.md */,
+				A7F99AEC215CBBF7008B0C1F /* RNCryptor */,
+			);
+			path = RNCryptor;
+			sourceTree = "<group>";
+		};
+		A7F99AEC215CBBF7008B0C1F /* RNCryptor */ = {
+			isa = PBXGroup;
+			children = (
+				A7F99AED215CBBF7008B0C1F /* RNCryptor+Private.h */,
+				A7F99AEE215CBBF7008B0C1F /* RNCryptor.h */,
+				A7F99AEF215CBBF7008B0C1F /* RNCryptor.m */,
+				A7F99AF0215CBBF7008B0C1F /* RNCryptorEngine.h */,
+				A7F99AF1215CBBF7008B0C1F /* RNCryptorEngine.m */,
+				A7F99AF2215CBBF7008B0C1F /* RNDecryptor.h */,
+				A7F99AF3215CBBF7008B0C1F /* RNDecryptor.m */,
+				A7F99AF4215CBBF7008B0C1F /* RNEncryptor.h */,
+				A7F99AF5215CBBF7008B0C1F /* RNEncryptor.m */,
+			);
+			path = RNCryptor;
+			sourceTree = "<group>";
+		};
+		A7F99AFB215CBC4D008B0C1F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A7F99AFC215CBC4D008B0C1F /* NSObject+Encrypt.h */,
+				A7F99AFD215CBC4D008B0C1F /* NSObject+Encrypt.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A7F99AFF215CBCA9008B0C1F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A7F99B03215CBEF8008B0C1F /* ZLFileEncrypt.h */,
+				A7F99B04215CBEF8008B0C1F /* ZLFileEncrypt.m */,
+				A7F99B00215CBD06008B0C1F /* ZLFileIOHandle.h */,
+				A7F99B01215CBD06008B0C1F /* ZLFileIOHandle.m */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +230,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7F99AD9215CBBA0008B0C1F /* ViewController.m in Sources */,
+				A7F99B02215CBD06008B0C1F /* ZLFileIOHandle.m in Sources */,
+				A7F99AFE215CBC4D008B0C1F /* NSObject+Encrypt.m in Sources */,
+				A7F99AF9215CBBF7008B0C1F /* RNDecryptor.m in Sources */,
 				A7F99AD6215CBBA0008B0C1F /* AppDelegate.m in Sources */,
+				A7F99AF6215CBBF7008B0C1F /* README.md in Sources */,
+				A7F99B05215CBEF8008B0C1F /* ZLFileEncrypt.m in Sources */,
+				A7F99AF8215CBBF7008B0C1F /* RNCryptorEngine.m in Sources */,
 				A7F99AD3215CBBA0008B0C1F /* main.m in Sources */,
+				A7F99AFA215CBBF7008B0C1F /* RNEncryptor.m in Sources */,
+				A7F99AF7215CBBF7008B0C1F /* RNCryptor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
